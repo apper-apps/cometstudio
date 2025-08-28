@@ -13,14 +13,19 @@ const Card = forwardRef(({
   const hoverStyles = hover ? "glass-hover" : "";
   const clickableStyles = clickable ? "cursor-pointer" : "";
 
-  const Component = clickable ? motion.div : "div";
+const Component = clickable ? motion.div : "div";
+  
+  // Separate motion props from regular props
+  const motionProps = clickable ? {
+    whileHover: { y: -4, scale: 1.01 },
+    whileTap: { scale: 0.99 }
+  } : {};
 
   return (
     <Component
       ref={ref}
       className={cn(baseStyles, hoverStyles, clickableStyles, className)}
-      whileHover={clickable ? { y: -4, scale: 1.01 } : {}}
-      whileTap={clickable ? { scale: 0.99 } : {}}
+      {...motionProps}
       {...props}
     >
       {children}
