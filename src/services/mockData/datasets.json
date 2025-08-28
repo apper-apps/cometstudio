@@ -1,0 +1,45 @@
+[
+  {
+    "Id": 1,
+    "name": "iris_dataset.csv",
+    "data": [
+      {"sepal_length": 5.1, "sepal_width": 3.5, "petal_length": 1.4, "petal_width": 0.2, "species": "setosa"},
+      {"sepal_length": 4.9, "sepal_width": 3.0, "petal_length": 1.4, "petal_width": 0.2, "species": "setosa"},
+      {"sepal_length": 7.0, "sepal_width": 3.2, "petal_length": 4.7, "petal_width": 1.4, "species": "versicolor"},
+      {"sepal_length": 6.4, "sepal_width": 3.2, "petal_length": 4.5, "petal_width": 1.5, "species": "versicolor"},
+      {"sepal_length": 6.3, "sepal_width": 3.3, "petal_length": 6.0, "petal_width": 2.5, "species": "virginica"},
+      {"sepal_length": 5.8, "sepal_width": 2.7, "petal_length": 5.1, "petal_width": 1.9, "species": "virginica"}
+    ],
+    "columns": ["sepal_length", "sepal_width", "petal_length", "petal_width", "species"],
+    "shape": {"rows": 150, "columns": 5},
+    "uploadedAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "housing_prices.csv",
+    "data": [
+      {"area": 1200, "bedrooms": 3, "bathrooms": 2, "age": 5, "price": 250000},
+      {"area": 1500, "bedrooms": 4, "bathrooms": 3, "age": 2, "price": 320000},
+      {"area": 900, "bedrooms": 2, "bathrooms": 1, "age": 15, "price": 180000},
+      {"area": 1800, "bedrooms": 4, "bathrooms": 3, "age": 1, "price": 420000},
+      {"area": 1100, "bedrooms": 3, "bathrooms": 2, "age": 8, "price": 285000}
+    ],
+    "columns": ["area", "bedrooms", "bathrooms", "age", "price"],
+    "shape": {"rows": 500, "columns": 5},
+    "uploadedAt": "2024-01-14T15:45:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "customer_data.csv",
+    "data": [
+      {"age": 25, "income": 45000, "spending_score": 65, "segment": "A"},
+      {"age": 35, "income": 85000, "spending_score": 78, "segment": "B"},
+      {"age": 45, "income": 65000, "spending_score": 45, "segment": "C"},
+      {"age": 28, "income": 52000, "spending_score": 72, "segment": "A"},
+      {"age": 55, "income": 95000, "spending_score": 35, "segment": "C"}
+    ],
+    "columns": ["age", "income", "spending_score", "segment"],
+    "shape": {"rows": 1000, "columns": 4},
+    "uploadedAt": "2024-01-13T09:20:00Z"
+  }
+]
